@@ -5,7 +5,7 @@ from django.contrib import messages
 
 # Create your views here.
 def my_blog(request):
-return HttpResponse("Hello, Blog!")
+    return HttpResponse("Hello, Blog!")
 
 @login_required
 def book_event(request, pk):
